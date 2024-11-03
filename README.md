@@ -13,7 +13,7 @@ This repository contains the code and data used for a research experiment evalua
   - Apply LLM along with regex functions for answer extraction.
 
 - **Stage 3: Variation Generation**
-  - Use LLM to generate three new variations of the original problems: *fictional*, *adversarial*, and *contextual disguise*.
+  - Use LLM to generate three new variations of the original problems: *fictional* *adversarial* and *contextual disguise*.
 
 - **Stage 4: Results Comparison**
   - Run permutation tests and correlation tests to assess the quality of the generated data and LLM performance.
@@ -26,8 +26,8 @@ The open-source models tested during experimentation have been quantized using K
 |------------------------|--------|---------------|-------------|---------------|
 | LLaMA-2-7B-Chat        | ✓      | Q4_K_M        | Open-source | Meta          |
 | Llama-3-8B-Instruct    | ✓      | Q4_K_M        | Open-source | Meta          |
-| Mathstral-7B           | ✓      | Q4_K_M        | Open-source | Mistral       |
-| Mixtral-8x7B-Instruct  | ✓      | Q4_K_M        | Open-source | Mistral       |
+| Mathstral-7B           | ✓      | Q4_K_M        | Open-source | Mistral AI    |
+| Mixtral-8x7B-Instruct  | ✓      | Q4_K_M        | Open-source | Mistral AI    |
 | Qwen2-7B-Instruct      | ✓      | Q4_K_M        | Open-source | Qwen          |
 | Qwen2-Math-7B          | ✓      | Q4_K_M        | Open-source | Qwen          |
 | GPT-4o-mini-2024-07-18 | ✗      | N/A           | API         | OpenAI        |
@@ -69,6 +69,4 @@ pip install -r requirements.txt
 | adversarial_ans | Adversarial variation answer extracted.        |
 | contdis_ans     | Contextual disguise answer extracted.          |
 
-## License
 
-This project is licensed under the MIT License.
