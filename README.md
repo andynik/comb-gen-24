@@ -29,7 +29,7 @@ The open-source models tested during experimentation have been quantized using K
 | Model                  | Quant. | Quant. Method | Access      | Model Creator |
 |------------------------|--------|---------------|-------------|---------------|
 | LLaMA-2-7B-Chat        | ✓      | Q4_K_M        | Open-source | Meta          |
-| Llama-3-8B-Instruct    | ✓      | Q4_K_M        | Open-source | Meta          |
+| LLaMA-3-8B-Instruct    | ✓      | Q4_K_M        | Open-source | Meta          |
 | Mathstral-7B           | ✓      | Q4_K_M        | Open-source | Mistral AI    |
 | Mixtral-8x7B-Instruct  | ✓      | Q4_K_M        | Open-source | Mistral AI    |
 | Qwen2-7B-Instruct      | ✓      | Q4_K_M        | Open-source | Qwen          |
@@ -82,6 +82,8 @@ pip install -r requirements.txt
 | fictional_ans   | Fictional variation answer extracted.          |
 | adversarial_ans | Adversarial variation answer extracted.        |
 | contdis_ans     | Contextual disguise answer extracted.          |
+
+More details on the [Hugging Face](https://huggingface.co/datasets/andynik/comb-gen-24) repository.
 
 ## Usage
 
