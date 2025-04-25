@@ -2,7 +2,7 @@
 
 This repository contains the code and data used for a research experiment evaluating the capabilities of large language models (LLMs) in processing and generating mathematical texts. The research introduces new problem variations and a metric that captures the performance rate and correlation between baseline problems and generated variations.
 
-The Combi-Puzzles dataset is available in `JSON` and in `Parquet` formats on the [Hugging Face](https://huggingface.co/datasets/andynik/comb-gen-24) repository in two sizes:
+The dataset is available in `JSON` and in `Parquet` formats on the [Hugging Face](https://huggingface.co/datasets/andynik/comb-gen-24) repository in two sizes:
 - 1,000 problems (4,000 problems with variations)
 - 5,583 problems (22,332 problems with variations)
 
@@ -54,7 +54,7 @@ OS kernel 6.2.0-37-generic
 
 ### Installation
 
-To set up the environment and run the scripts, install the necessary Python (v3.11.3) libraries using the provided `requirements.txt` file:
+To set up the environment and run the scripts, install the necessary Python (v3.10.12) libraries using the provided `requirements.txt` file:
 
 ```bash
 pip install -r requirements.txt
