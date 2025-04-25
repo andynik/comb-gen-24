@@ -20,6 +20,12 @@ The Combi-Puzzles dataset is available in `JSON` and in `Parquet` formats on the
 - **Stage 4: Results Comparison**
   - Run permutation tests and correlation tests to assess the quality of the generated data and LLM performance in perserving mathematical core of the problems samples.
  
+## Results
+
+![Problem Example](images/variations_solv_rate.png)
+
+_Star ‘*’ represents that the difference was significant._
+ 
 ## Experiment specifications
 
 ### Models Used in the Experiment
