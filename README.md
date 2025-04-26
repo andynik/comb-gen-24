@@ -8,17 +8,19 @@ The dataset is available in `JSON` and in `Parquet` formats on the [Hugging Face
 
 ## Project Stages
 
-- **Stage 1: Filtering**
+- **Stage 1: Data Filtering**
   - Filter 1,000 problems from [NuminaMath-COT](https://huggingface.co/datasets/AI-MO/NuminaMath-COT).
+  - Apply LLM and regex for answer extraction.
 
-- **Stage 2: Answer Extraction**
-  - Apply LLM along with regex functions for answer extraction.
-
-- **Stage 3: Variation Generation**
+- **Stage 2: Variation Generation**
   - Use LLM to generate three new variations of the original problems: *fictional*, *adversarial* and *contextual disguise*.
+  - Generate solutions for each variation, including *original*
+  - Apply LLM and regex for answer extraction.
 
-- **Stage 4: Results Comparison**
-  - Run permutation tests and correlation tests to assess the quality of the generated data and LLM performance in perserving mathematical core of the problems samples.
+- **Stage 3: Analysis**
+  - Run permutation tests and correlation tests.
+  - Prepare plots about solution rates and correlation heatmap across variations.
+  - Apply _F1 Variations Consistency Score_ to assess the quality of the generated data.
  
 ## Results
 
